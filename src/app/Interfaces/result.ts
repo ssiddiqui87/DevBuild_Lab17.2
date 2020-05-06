@@ -1,12 +1,6 @@
 export interface Results {
-    data:string;
-    children:Result[];
-    title:string;
-} 
+    data: string;
+}
 export interface Result {
-    data:any;
-    title:string;
-    thumbnail:string;
-    url:string;
-    permalink:string;
+    data: any;
 }
