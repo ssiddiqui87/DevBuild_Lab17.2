@@ -1,10 +1,9 @@
 <div>
-       <h3>{{ redditPost.data.title }}</h3>
+       <h3><a href="https://www.reddit.com{{redditPost.data.permalink}}" target="_blank">{{redditPost.data.title}}</a>
+        </h3>
+        <span class="upvotes">Upvotes: {{redditPost.data.ups}}</span>
+</div>
+<div style="margin-top:5px">
+    <a href="{{redditPost.data.url}}" target="_blank"><img src="{{redditPost.data.thumbnail}}" /></a>
 </div>
 
-<div>
-    <a href="{{redditPost.data.url}}"><img src="{{redditPost.data.thumbnail}}" /></a>
-</div>
-<div>
-    <a href="https://www.reddit.com{{redditPost.data.permalink}}">Comments</a>
-</div>

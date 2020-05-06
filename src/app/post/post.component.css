@@ -1,3 +1,26 @@
+a {
+    text-decoration: none;
+    color:rgb(0, 143, 187)
+}
+a:hover {
+    color:red;
+}
+
+.upvotes {
+    color: rgb(255, 81, 0);
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 8px 0px 4px 0;
+    font-family: 'Century Gothic';
+    color:rgb(181, 255, 248);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 8px 0px 4px 0;
+    font-family: 'Century Gothic';
+    color:rgb(181, 255, 248);
+}
 
 .post {
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
